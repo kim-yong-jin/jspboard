@@ -13,6 +13,7 @@
 		<typeAlias type="com.jsp.dto.MenuVO" alias="menu" />
 		<typeAlias type="com.jsp.dto.NoticeVO" alias="notice" />
 		<typeAlias type="com.jsp.dto.BoardVO" alias="board" />
+		<typeAlias type="com.jsp.dto.ReplyVO" alias="reply" />
   </typeAliases>
   
   <environments default="dev">
@@ -33,5 +34,6 @@
 		<mapper resource="com/jsp/mybatis/mappers/Menu-Mapper.xml"/>
 		<mapper resource="com/jsp/mybatis/mappers/Notice-Mapper.xml"/>
 		<mapper resource="com/jsp/mybatis/mappers/Board-Mapper.xml"/>
+		<mapper resource="com/jsp/mybatis/mappers/Reply-Mapper.xml"/>
 	</mappers>
 </configuration>

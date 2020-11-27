@@ -40,7 +40,15 @@
     <param-value>com.jsp.service.BoardSeviceImpl</param-value>
   </context-param>
   
+  <context-param>
+    <param-name>replyDAO</param-name>
+    <param-value>com.jsp.dao.ReplyDAOImpl</param-value>
+  </context-param>
   
+  <context-param>
+    <param-name>replyService</param-name>
+    <param-value>com.jsp.service.ReplyServiceImpl</param-value>
+  </context-param>
   
   <listener>
     <listener-class>com.jsp.listener.ApplicationContextLoaderListener</listener-class>
